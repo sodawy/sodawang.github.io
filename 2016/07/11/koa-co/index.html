@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="nodejs,koa,co," />
 
 
 
@@ -84,12 +84,28 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="soda笔记">
-<meta property="og:url" content="http://sodawy.github.io/index.html">
+<meta name="description" content="此文假设你已经明白es6中generate用法
+简介
+作者tj, The ultimate generator based flow-control goodness for nodejs (supports thunks, promises, etc)
+
+我简化后的co源码12345678910111213141516171819202122232425262728&quot;use strict&quot;;fu">
+<meta property="og:type" content="article">
+<meta property="og:title" content="koa笔记 co源码学习">
+<meta property="og:url" content="http://sodawy.github.io/2016/07/11/koa-co/index.html">
 <meta property="og:site_name" content="soda笔记">
+<meta property="og:description" content="此文假设你已经明白es6中generate用法
+简介
+作者tj, The ultimate generator based flow-control goodness for nodejs (supports thunks, promises, etc)
+
+我简化后的co源码12345678910111213141516171819202122232425262728&quot;use strict&quot;;fu">
+<meta property="og:updated_time" content="2016-07-11T05:34:26.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="soda笔记">
+<meta name="twitter:title" content="koa笔记 co源码学习">
+<meta name="twitter:description" content="此文假设你已经明白es6中generate用法
+简介
+作者tj, The ultimate generator based flow-control goodness for nodejs (supports thunks, promises, etc)
+
+我简化后的co源码12345678910111213141516171819202122232425262728&quot;use strict&quot;;fu">
 
 
 
@@ -110,9 +126,9 @@
 
 
 
-  <link rel="canonical" href="http://sodawy.github.io/"/>
+  <link rel="canonical" href="http://sodawy.github.io/2016/07/11/koa-co/"/>
 
-  <title> soda笔记 </title>
+  <title> koa笔记 co源码学习 | soda笔记 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -133,9 +149,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left 
-   page-home 
- ">
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -212,9 +226,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
   
@@ -234,10 +248,7 @@
             
             
               
-                
-                <a class="post-title-link" href="/2016/07/11/koa-co/" itemprop="url">
-                  koa笔记 co源码学习
-                </a>
+                koa笔记 co源码学习
               
             
           </h1>
@@ -277,9 +288,7 @@
       
 
       
-        
-          
-            <p><code>此文假设你已经明白es6中generate用法</code></p>
+        <p><code>此文假设你已经明白es6中generate用法</code></p>
 <h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><ul>
 <li>作者<a href="https://github.com/tj" target="_blank" rel="external">tj</a>, <code>The ultimate generator based flow-control goodness for nodejs (supports thunks, promises, etc)</code></li>
 </ul>
@@ -305,132 +314,63 @@
 <li><a href="http://www.ecma-international.org/ecma-262/6.0/#sec-overview" target="_blank" rel="external">ecma-262</a></li>
 </ul>
 
-          
+      
+    </div>
+
+    <div>
+      
         
+
       
     </div>
 
     <div>
       
-    </div>
+        
 
-    <div>
       
     </div>
 
     <footer class="post-footer">
       
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/07/10/hello-world/" itemprop="url">
-                  Hello World
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-07-10T00:00:00+08:00" content="2016-07-10">
-              2016-07-10
-            </time>
-          </span>
-
+        <div class="post-tags">
           
-
+            <a href="/tags/nodejs/" rel="tag">#nodejs</a>
           
-            
+            <a href="/tags/koa/" rel="tag">#koa</a>
           
-
-          
-
-          
-          
-
+            <a href="/tags/co/" rel="tag">#co</a>
           
         </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <h1 id="开站第一篇-希望在此记录学习的点滴"><a href="#开站第一篇-希望在此记录学习的点滴" class="headerlink" title="开站第一篇~~ 希望在此记录学习的点滴"></a>开站第一篇~~ 希望在此记录学习的点滴</h1><h2 id="今天Node的最新版本号"><a href="#今天Node的最新版本号" class="headerlink" title="今天Node的最新版本号"></a>今天Node的最新版本号</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ node -v</div></pre></td></tr></table></figure>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">const</span> lts = <span class="string">'v4.4.7'</span>;</div><div class="line"><span class="keyword">const</span> current = <span class="string">'v6.3.0'</span>;</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://nodejs.org/en/" target="_blank" rel="external">nodejs.org</a></p>
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2016/07/10/hello-world/" rel="next" title="Hello World">
+                <i class="fa fa-chevron-left"></i> Hello World
+              </a>
+            
+          </div>
 
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
       
 
       
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -438,6 +378,10 @@
 
 
           
+  <div class="comments" id="comments">
+    
+  </div>
+
 
         </div>
         
@@ -457,8 +401,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel  sidebar-panel-active ">
+      <section class="site-overview sidebar-panel ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.gif"
@@ -501,6 +454,17 @@
 
       </section>
 
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#简介"><span class="nav-number">1.</span> <span class="nav-text">简介</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#我简化后的co源码"><span class="nav-number">2.</span> <span class="nav-text">我简化后的co源码</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#源码解析"><span class="nav-number">3.</span> <span class="nav-text">源码解析</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#参考连接"><span class="nav-number">4.</span> <span class="nav-text">参考连接</span></a></li></ol></div>
+            
+          </div>
+        </section>
       
 
     </div>
@@ -597,6 +561,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
 
   
 
