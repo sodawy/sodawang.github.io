@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://sodawy.github.io/2016/07/13/koa-compose/</loc>
+    
+    <lastmod>2016-07-13T03:42:07.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://sodawy.github.io/2016/07/11/koa-co/</loc>
     
     <lastmod>2016-07-12T08:19:15.000Z</lastmod>
